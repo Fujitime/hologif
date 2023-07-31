@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member --- ? </title>
+    <link rel="shortcut icon" href="./ico/fbk.ico" type="image/x-icon">
+    <style>
+        @import url("/src/scss/sample.sass");
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <div class="btn-container">
+        <button id="backButton">Back</button>
+        <button id="randomButton">Random</button>
+        <button id="nextButton">Next</button>
+    </div>
+    <script type="module" >
+    import  {sayHello} from "/src/ts/say-hello.ts"
+    import  {sayGoodbye} from "/src/ts/say-goodbye.ts"
+    import {v4} from "uuid"
+    import failuText from "./src/db/text.txt?raw"
+    import { DisplayHoloData} from "/src/ts/app.ts";
+    DisplayHoloData();
+    console.log(v4())
+    console.log(failuText)
+    sayHello("i'm fox")
+    sayGoodbye("DIE")
+    </script>
+</body>
+</html>

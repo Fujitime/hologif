@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member --- ? </title>
+    <link rel="shortcut icon" href="./ico/fbk.ico" type="image/x-icon">
+    <style>@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+p {
+  color: #fff;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #222;
+}
+.container h2 {
+  width: 80%;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.centered-image {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+.sosmed {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.sosmed a svg {
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+  transition: fill 0.3s;
+}
+.sosmed a svg:hover {
+  fill: #cccccc;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #e6e6e6;
+}
+button:focus {
+  outline: none;
+}
+#backButton {
+  background-color: #e91e63;
+  color: #fff;
+  margin-right: auto;
+}
+#randomButton {
+  background-color: #2196f3;
+  color: #fff;
+  text-align: center;
+}
+#nextButton {
+  background-color: #4caf50;
+  color: #fff;
+  margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .centered-image {
+    width: 150px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+}
+    </style>
+  <script type="module" crossorigin src="/assets/index-4aeffaed.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <div class="btn-container">
+        <button id="backButton">Back</button>
+        <button id="randomButton">Random</button>
+        <button id="nextButton">Next</button>
+    </div>
+    
+</body>
+</html>

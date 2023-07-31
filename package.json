@@ -1,0 +1,23 @@
+{
+  "name": "belajar-vite",
+  "version": "1.0.0",
+  "description": "Belajar Vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite serve",
+    "build": "vite build",
+    "deploy": "netlify deploy --prod"
+  },
+  "author": "Fujitime",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
