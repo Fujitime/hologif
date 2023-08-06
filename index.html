@@ -6,27 +6,39 @@
     <title>Member --- ? </title>
     <link rel="shortcut icon" href="./ico/fbk.ico" type="image/x-icon">
     <style>
-        @import url("/src/scss/sample.sass");
+        @import url("/src/scss/style.sass");
     </style>
 </head>
 <body>
+    <button id="openModal">?</button>
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button id="closeModal">x</button>
+      <pre id="modalText"></pre>
+    </div>
+  </div>
+    <button id="docs" >
+        <a href="https://github.com/Fujitime/hologif-api" target="_blank">
+            Documentation API V.01
+        </a>
+    </button>
+    <button id="to-" >
+        <a href="gallery.html">
+            Gallery
+        </a>
+    </button>
     <div id="root"></div>
     <div class="btn-container">
-        <button id="backButton">Back</button>
-        <button id="randomButton">Random</button>
-        <button id="nextButton">Next</button>
+        <button id="backButton">⬅️</button>
+        <button id="randomButton">🔄</button>
+        <button id="nextButton">➡️</button>
     </div>
     <script type="module" >
-    import  {sayHello} from "/src/ts/say-hello.ts"
-    import  {sayGoodbye} from "/src/ts/say-goodbye.ts"
-    import {v4} from "uuid"
-    import failuText from "./src/db/text.txt?raw"
-    import { DisplayHoloData} from "/src/ts/app.ts";
+    import { DisplayHoloData} from "/src/ts/hologif.ts";
+    import { initModal } from './src/ts/info.ts';
+
+    initModal();
     DisplayHoloData();
-    console.log(v4())
-    console.log(failuText)
-    sayHello("i'm fox")
-    sayGoodbye("DIE")
     </script>
 </body>
 </html>

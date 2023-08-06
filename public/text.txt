@@ -1,0 +1,25 @@
+Selamat datang di situs yang menampilkan kumpulan GIF dan kutipan engga jelas.
+
+Website ini menggunakan API dari "HoloGIF" yang mengambil informasi anggota, termasuk kutipan mereka (Dari chat GPT njir ngawur semua), tautan GIF, dan tautan media sosial.
+
+Jika Kamu menemui kendala, bug, atau error saat menggunakan situs ini, saya mengharapkan bantuannya untuk melaporkannya kepada saya. Kamu dapat membuat "issue" di halaman <a target="_blank" href="https://github.com/Fujitime/hologif-api">Github</a> saya untuk memberitahu tentang masalah yang kamu temui.
+
+Situs ini juga menyimpan beberapa data di local storage. Ini berarti setiap kali kamu kembali mengunjungi situs ini, beberapa gif dan data lainnya tidak akan dimuat kembali. 
+
+Terima kasih telah mengunjungi situs yang engga jelas ini. Jangan ragu untuk menghubungi jika kamu memiliki pertanyaan, saran, atau sekadar ingin berkenalan! Semoga hari Anda menyenangkan! 😄
+
+---
+
+Kunjungi juga media sosial saya:
+
+- <a target="_blank"  href="https://www.facebook.com/kang.komen.798">Facebook <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M5 8H3V5h2v-1C5 2.346 6.346 1 8 1s3 .346 3 3v3h-2V6c0-1.105-.895-2-2-2S5 4.895 5 6v2H3v3h2v7h3v-7h2l1-3H8V6c0-.567.433-1 1-1h2v-.732C10.93 4.079 9.388 3 8 3 6.053 3 4.798 4.547 4.414 6H6c.256 0 .508.098.707.293.198.195.293.454.293.707v2z"/>
+</svg></a>
+
+- <a target="_blank" href="https://t.me/fuhara">Telegram <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M14.433 1.152l-.75 7.113c-.092.833-.526 1.339-1.355 1.578L8.937 10l1.862 5.607c.313 1.041-.192 1.563-1.045 1.354L.5 14.938c-.883-.19-.43-.838.296-1.54l11.065-9.21L12.15.406C12.607-.247 13.245-.002 14.433 1.152z"/>
+</svg></a>
+
+- <a target="_blank" href="https://discord.com/users/680289629571645440">Discord <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 5.415 7.595.5.5 0 0 1 .169-.975A6.97 6.97 0 0 1 2 8a7 7 0 0 1 7-7c2.85 0 5.196 2.166 5.493 4.96a.5.5 0 0 1-.412.554A2.532 2.532 0 0 1 14 8a2.5 2.5 0 0 1-2.5 2.5H9a1 1 0 0 1 0-2h2.5a.5.5 0 0 0 .5-.5 2.5 2.5 0 0 0-2.454-2.499l-.05-.001A4.011 4.011 0 0 0 6.944 8a3.99 3.99 0 0 0 3.512 3.948.5.5 0 0 0 .584-.811A3.008 3.008 0 0 1 8 11a3 3 0 0 1 0-6c.176 0 .348.019.516.054a.5.5 0 1 0 .152-.987A4 4 0 1 0 12.598 8h-1.04A4.976 4.976 0 0 1 8 5a4.976 4.976 0 0 1-3.557-1.472h-1.04a4 4 0 1 0 7.235 0h-1.04A4.976 4.976 0 0 1 8 5c0 1.093.36 2.101.972 2.928a.5.5 0 1 0 .511-.859A3.99 3.99 0 0 0 8 3z"/>
+</svg></a>

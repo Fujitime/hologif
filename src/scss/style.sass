@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap')
+
+$font-family: 'Quicksand', sans-serif
+$primary-color: #fff
+
+* 
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  
+body  
+  background-color: #222
+p 
+  color: $primary-color
+
+.btn-container
+  display: flex
+  margin: 15px
+  background-color: #222
+
+.container
+  width: 100vw
+  height: 500px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  background-color: #222
+
+  h2
+    width: 80%
+    margin-bottom: 20px
+    font-family: $font-family
+    font-size: 18px
+    color: $primary-color
+
+.centered-image
+  width: 250px
+  height: auto
+  margin: 10px
+
+.sosmed
+  display: flex
+  gap: 10px
+  margin-top: 15px
+
+  a
+    svg
+      width: 50px
+      height: 50px
+      fill: $primary-color
+      transition: fill 0.3s
+
+      &:hover
+        fill: darken($primary-color, 20%)
+
+button
+  font-family: $font-family
+  font-size: 16px
+  padding: 10px 20px
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.3s
+
+  &:hover
+    background-color: darken($primary-color, 10%)
+
+  &:focus
+    outline: none
+
+#backButton
+  background-color: #e91e63
+  color: #fff
+  margin-right: auto
+
+#randomButton
+  background-color: #2196f3
+  color: #fff
+  text-align: center
+
+#nextButton
+  background-color: #4caf50
+  color: #fff
+  margin-left: auto
+
+.gallery-container
+  display: flex
+  flex-wrap: wrap
+  gap: 20px
+  padding: 20px
+
+.gallery-item
+  flex: 1 0 300px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.gallery-gif
+  width: 100%
+  border-radius: 8px
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+#to-
+  margin: 3px
+  display: flex
+  justify-content: end
+  text-align: end
+  justify-items: end
+  padding: 10px 20px
+  background-color: #BBF
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  float: right
+
+  a
+    display: block
+    width: 100%
+    height: 100%
+    background-color: #BBF
+    color: #FFF
+    text-decoration: none
+
+#docs
+  margin: 3px
+  display: flex
+  justify-content: end
+  text-align: end
+  justify-items: end
+  background-color: #244
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  float: left
+
+  a
+    display: block
+    width: 100%
+    height: 100%
+    background-color: #244
+    color: #FFF
+    text-decoration: none
+
+.modal-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.5)
+  display: none
+  align-items: center
+  justify-content: center
+
+.modal-content
+  background-color: #fff
+  padding: 20px
+  border-radius: 8px
+
+#modalText
+  white-space: pre-wrap
+
+#closeModal
+  background-color: #BFF
+  margin-bottom: 15px
+
+#openModal
+  margin: 3px
+  display: flex
+  justify-content: flex-end
+  text-align: end
+  justify-items: end
+  background-color: gray
+  border: none
+  border-radius: 5px
+  cursor: pointer
+  float: left
+
+@media only screen and (max-width: 600px)
+  .centered-image
+    width: 150px
+
+  .container
+    h2
+      font-size: 20px
+
+  .gallery-container
+    flex-direction: column
+    align-items: center
+
