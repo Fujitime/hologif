@@ -2,7 +2,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
     build : {
-        outDir: 'production',
+        outDir: 'dist',
         rollupOptions: {
             input : {
                 index : "index.html",
@@ -11,6 +11,7 @@ export default defineConfig({
         }
     },
     server: {
-        port: 7000
+        host: "0.0.0.0",
+        port: 8000,
     }
 })
